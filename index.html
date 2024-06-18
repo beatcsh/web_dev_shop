@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="shortcut icon" href="/img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Beatskate</title>
+</head>
+
+<body>
+    <header>
+        <div id="logo">
+            <img src="/img/logo.png" alt="urigod">
+            <a href=""><h1>Beatskate</h1></a>
+        </div>
+        <nav id="navegar">
+            <ul>
+                <li id="carrito"><button id="total_btn"><i class="fas fa-shopping-cart"></i> Ver total</button></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="carrusel"></div>
+    <main>
+        <h2>Tenemos lo que buscas..</h2>
+        <p id="texto_heading">Los productos de mejor calidad con garantia asegurada.</p>
+        <div id="contain"></div>
+    </main>
+    <div id="modal"">
+        <div class=" modal-content">
+        <div id="head_modal">
+            <h3>Añadiendo al Carrito</h3>
+            <span class="close">&times;</span>
+        </div>
+        <div id="modal_text">
+            <label for="cant">Elige la cantidad: </label>
+            <input id="numerin" type="number">
+        </div>
+        <button id="modal_add">Añadir</button>
+    </div>
+    </div>
+    <div id="modal_buy">
+        <div class=" modal-content">
+            <div id="head_modal">
+                <h3>Resumen</h3>
+                <span id="close_buy">&times;</span>
+            </div>
+            <div class="modal_text">
+                <p>Este es un resumen de tu compra: </p>
+                <p id="suma"></p>
+                <p id="items"></p>
+                <table>
+                    <tbody id="resumen_tabla"></tbody>
+                </table>
+            </div>
+            <div class="botones">
+                <button id="resumen_can" class="resumen_btn">Cancelar</button>
+                <button id="resumen_ok" class="resumen_btn">Aceptar</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div id="sociales">
+            <a href="https://www.facebook.com/profile.php?id=100041000838451&mibextid=ZbWKwL"><i id="facebook" class="fab social_icon fa-facebook"></i></a>
+            <a href="https://x.com/beatC013?t=7becSHresmHwX2IQp3QR_g&s=09"><i id="twitter" class="fab social_icon fa-twitter"></i></a>
+            <a href="https://www.instagram.com/beatcshh?igsh=MWxhaWlrbGtrcXdwdQ=="><i id="insta" class="fab social_icon fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/j-de-jes%C3%BAs-s-hern%C3%A1ndez-9b6968300?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i id="linkedin" class="fab social_icon fa-linkedin"></i></a>
+        </div>
+    </footer>
+</body>
+<script src="/scripts/script.js"></script>
+
+</html>
